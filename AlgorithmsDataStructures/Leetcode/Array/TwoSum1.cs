@@ -12,7 +12,8 @@ namespace AlgorithmsDataStructures.Leetcode.Array
         {
             int[] nums = { 3, 2, 4 };
             int target = 6;
-            TwoSum(nums,target);
+            TwoSum(nums, target);
+
         }
 
         public static int[] TwoSum(int[] nums, int target)
@@ -24,12 +25,12 @@ namespace AlgorithmsDataStructures.Leetcode.Array
                     int sum = nums[i] + nums[j];
                     if (sum == target)
                     {
-                        int[] resultArray = { i, j };
-                        return resultArray;
+                        Console.WriteLine(i+j);
+                        return new int[] { i, j };
                     }
                 }
             }
-            return null;
+            return new int[] { };
         }
     }
 }

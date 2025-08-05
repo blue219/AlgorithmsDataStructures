@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>AlgorithmsDataStructures.Leetcode.Array.LongestCommonPrefix14</StartupObject>
   </PropertyGroup>
 
 </Project>
