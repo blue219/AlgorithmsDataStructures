@@ -1,4 +1,7 @@
 ﻿.idea/
 *.user
-*.vs
 global.json
+bin/
+obj/
+.vs/
+*.suo
