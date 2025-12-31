@@ -6,9 +6,15 @@ public static class AlgorithmsDataStructures
 {
     public static void Main(string[] args)
     {
-        string[] strs = ["a"];
+        int[] nums = [0,0,1,1,1,2,2,3,3,4];
 
-        var longestCommonPrefix14 = new LongestCommonPrefix14();
-        Console.WriteLine(longestCommonPrefix14.LongestCommonPrefix(strs));
+        var removeDuplicatesfromSortedArray26 = new RemoveDuplicatesfromSortedArray26();
+        var removeDuplicates = removeDuplicatesfromSortedArray26.RemoveDuplicates(nums);
+        Console.WriteLine(removeDuplicates);
+
+        foreach (var num in nums)
+        {
+            Console.Write(num + " ");
+        }
     }
 }
