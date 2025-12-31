@@ -4,10 +4,7 @@ public class RemoveDuplicatesfromSortedArray26
 {
     public int RemoveDuplicates(int[] nums)
     {
-        if (nums.Length == 0)
-        {
-            return 0;
-        }
+        if (nums.Length == 0) return 0;
 
         int count = 1;
         for (int i = 1; i < nums.Length; i++)
